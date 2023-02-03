@@ -1,0 +1,22 @@
+{
+  "name": "hyper-reducer",
+  "version": "1.0.1",
+  "description": "A generalization of `reduce()` to arbitrary arity.",
+  "type": "module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oelin/hyper-reducer.git"
+  },
+  "keywords": [
+    "reduction",
+    "functional-programming",
+    "reduce"
+  ],
+  "author": "oelin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oelin/hyper-reducer/issues"
+  },
+  "homepage": "https://github.com/oelin/hyper-reducer#readme"
+}
