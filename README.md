@@ -5,7 +5,7 @@ A generalization of `reduce()` to arbitrary arity.
 
 ## Introduction
 
-Reduction is a key concept in functional programming which essentially encapsulates the notion of recursively transforming state based on a list of acitons. More concretely, `reduce()` takes two values (one of which is its previous output), and returns another value. In contrast, `reduceN()` takes `N` inputs (it has arbitrary arity). Although `reduceN()` can ultimately be *reduced to* regular `reduce()`, the construction makes certain operations easier to understand and implement.
+Reduction is a key concept in functional programming which encapsulates the idea of recursively transforming state based on a sequence of input. More concretely, `reduce()` takes two values (one of which is the previous output), and returns another value. In contrast, `reduceN()` takes `N` inputs (it has arbitrary arity). Although `reduceN()` can ultimately be *reduced to* regular `reduce()`, the construction makes certain operations easier to understand and implement.
 
 
 ## Insallation
